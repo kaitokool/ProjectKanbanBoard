@@ -1,0 +1,48 @@
+.navbar{
+    height: 100vh;
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
+    background-color: #0747a6;
+    flex-shrink: 0;
+}
+
+.logoLink,
+.item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 100%;
+    min-height: 42px;
+}
+
+.itemIcon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-duration: .1s;
+    cursor: pointer;
+}
+
+.itemIcon:hover {
+    background: #1c63ce;
+}
+
+.itemIcon i {
+    color: white;
+}
+
+.popover-body {
+    width: max-content !important;
+}

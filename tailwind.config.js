@@ -5,9 +5,12 @@ module.exports = {
         './src/**/*.{html,ts}',
       ]
     },
-    darkMode: 'class', // or 'media' or 'class'
+    // darkMode: 'class', // or 'media' or 'class'
     theme: {
-      extend: {},
+      spacing: {
+        sidebar: '240px',
+        navbar: '64px'
+      },
     },
     variants: {
       extend: {},
