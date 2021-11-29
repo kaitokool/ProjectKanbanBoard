@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     height: 100vh;
     padding-top: 1.5rem;
     padding-bottom: 1.25rem;
@@ -7,7 +7,7 @@
 }
 
 .logoLink,
-.item{
+.item {
     position: relative;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    transition-property: background-color,border-color,color,fill,stroke;
+    transition-property: background-color, border-color, color, fill, stroke;
     transition-duration: .1s;
     cursor: pointer;
 }
@@ -43,6 +43,15 @@
     color: white;
 }
 
-.popover-body {
-    width: max-content !important;
+.customTooltip {
+    background: rgba(0, 0, 0, .8);
+    width: max-content;
+}
+
+.customTooltip .popover-body {
+    color: white;
+}
+
+.customTooltip .arrow::after {
+    border-right-color: rgba(0, 0, 0, .8);
 }

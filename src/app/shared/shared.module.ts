@@ -4,7 +4,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MainComponent } from './components/main/main.component';
 import { RouterModule } from '@angular/router';
-import { NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule  } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -17,7 +17,8 @@ import { NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     RouterModule,
-    NgbPopoverModule
-  ]
+    NgbModule 
+  ],
+  bootstrap: [SidebarComponent]
 })
 export class SharedModule { }
