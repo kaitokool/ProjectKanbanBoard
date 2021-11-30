@@ -1,7 +1,8 @@
-<div class="flex flex-row overflow-hidden h-full">
+<div class="flex flex-row overflow-hidden h-full w-full">
     <app-navbar></app-navbar>
     <app-sidebar></app-sidebar>
-    <main id="mainContent">
+    <app-resizer></app-resizer>
+    <main id="mainContent" class="flex-auto">
         <router-outlet></router-outlet>
     </main>
 </div>

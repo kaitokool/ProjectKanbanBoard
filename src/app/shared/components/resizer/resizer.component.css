@@ -1,0 +1,8 @@
+.sizer-wrap {
+     bottom: 0;
+     position: absolute;
+     top: 0;
+     transform: translateZ(0);
+     width: 24px;
+     z-index: 3;
+}

@@ -5,6 +5,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MainComponent } from './components/main/main.component';
 import { RouterModule } from '@angular/router';
 import { NgbModule  } from '@ng-bootstrap/ng-bootstrap';
+import { ResizerComponent } from './components/resizer/resizer.component';
 
 
 
@@ -12,7 +13,8 @@ import { NgbModule  } from '@ng-bootstrap/ng-bootstrap';
   declarations: [
     NavbarComponent,
     SidebarComponent,
-    MainComponent
+    MainComponent,
+    ResizerComponent
   ],
   imports: [
     CommonModule,

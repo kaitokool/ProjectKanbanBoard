@@ -6,6 +6,12 @@
     flex-shrink: 0;
 }
 
+.navbarLeft-content{
+    height: 100%;
+    background-color: #0747a6;
+    flex-shrink: 0;
+}
+
 .logoLink,
 .item {
     position: relative;
